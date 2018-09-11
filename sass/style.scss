@@ -4,4 +4,16 @@
 
 body {
     margin: 0, auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
 }
